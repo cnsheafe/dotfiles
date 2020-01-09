@@ -8,6 +8,8 @@ function run {
 	fi
 }
 
+source ~/.bash_profile
+
 # Make sure bluetooth is ready - especially for headsets.
 run bluetoothctl power on
 run bluetoothctl default-agent
