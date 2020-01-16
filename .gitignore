@@ -3,3 +3,5 @@
 .config/dconf
 .config/Code \- OSS
 update-notifier-npm.json
+.ssh/id*
+.ssh/known_hosts
