@@ -15,3 +15,4 @@ fi
 editor=/usr/bin/vim
 export EDITOR=$editor
 export VISUAL=$editor
+source /usr/share/nvm/init-nvm.sh

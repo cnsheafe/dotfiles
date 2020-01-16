@@ -1,3 +1,5 @@
 .config/pulse
 .config/terminology
-.config/dconf/user
+.config/dconf
+.config/Code \- OSS
+update-notifier-npm.json
