@@ -4,6 +4,11 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
+# Enable Autocomplete for sudo
+if [ "$PS1" ]; then
+    complete -cf sudo
+fi
+
 # Start ssh-agent if not already running
 if ! pgrep -u "$USER" ssh-agent > /dev/null; then
     ssh-agent > "$XDG_RUNTIME_DIR/ssh-agent.env"

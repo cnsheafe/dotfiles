@@ -15,3 +15,5 @@ run bluetoothctl default-agent
 # Start Pulse Audio
 run systemctl --user start pulseaudio.service
 
+# Enable Albert - The App Launcher
+run albert
