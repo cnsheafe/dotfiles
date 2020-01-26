@@ -21,19 +21,26 @@ local grey_30 = "#d7d7db"
 local grey_50 = "#737373"
 local grey_70 = "#38383d"
 local grey_80 = "#2a2a2e"
-
 local ink_70 = "#363959"
+-- synthwave color palette
+local purple_bg = "#000025"
+local purple_fg_unfocus = "#7c7c9c"
+local white = "#ffffff"
 
-theme.bg_normal     = grey_80
-theme.bg_focus      = grey_80
+
+-- theme.bg_normal     = grey_80
+-- theme.bg_focus      = grey_80
+theme.bg_normal     = purple_bg
+theme.bg_focus      = purple_bg
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = grey_50
-theme.fg_focus      = "#ffffff"
-theme.fg_urgent     = "#ffffff"
-theme.fg_minimize   = "#ffffff"
+-- theme.fg_normal     = grey_50
+theme.fg_normal     = purple_fg_unfocus
+theme.fg_focus      = white
+theme.fg_urgent     = white
+theme.fg_minimize   = white
 
 theme.useless_gap   = dpi(0)
 theme.border_width  = dpi(0)
