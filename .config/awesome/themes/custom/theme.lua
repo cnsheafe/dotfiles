@@ -28,16 +28,13 @@ local purple_fg_unfocus = "#7c7c9c"
 local white = "#ffffff"
 
 
--- theme.bg_normal     = grey_80
--- theme.bg_focus      = grey_80
-theme.bg_normal     = purple_bg
-theme.bg_focus      = purple_bg
+theme.bg_normal     = grey_80
+theme.bg_focus      = grey_80
 theme.bg_urgent     = "#ff0000"
 theme.bg_minimize   = "#444444"
 theme.bg_systray    = theme.bg_normal
 
--- theme.fg_normal     = grey_50
-theme.fg_normal     = purple_fg_unfocus
+theme.fg_normal     = grey_50
 theme.fg_focus      = white
 theme.fg_urgent     = white
 theme.fg_minimize   = white
@@ -142,7 +139,7 @@ theme.awesome_icon = theme_assets.awesome_icon(
 
 -- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.
-theme.icon_theme = nil
+theme.icon_theme = "Papirus-Dark"
 
 return theme
     
