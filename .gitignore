@@ -1,15 +1,12 @@
-.config/pulse
-.config/terminology
-.config/dconf
-.config/Code \- OSS
+dotconfig/pulse
+dotconfig/dconf
+dotconfig/Code \- OSS
+dotconfig/xfce4
+dotconfig/libaccounts-glib
+dotconfig/Thunar
+dotconfig/Electron
+dotssh/id*
+dotssh/known_hosts
 update-notifier-npm.json
-.ssh/id*
-.ssh/known_hosts
 thunar.xml
-.config/xfce4
-.config/libaccounts-glib
-.config/Thunar
-.config/albert/core.db
-.config/Electron
 QtProject.conf
-.config/konsolerc
