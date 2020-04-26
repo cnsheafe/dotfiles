@@ -1,12 +1,12 @@
-# Get list of pacman packages
+## Get list of pacman packages
 
 `pacman -Qqen`
 
-# Get list of pacman AUR packages
+## Get list of pacman AUR packages
 
 `pacman -Qqem`
 
-# Get list of flatpak packages
+## Get list of flatpak packages
 
 `flatpak list --columns=application`
 
