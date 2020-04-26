@@ -1,0 +1,6 @@
+dropbox
+google-chrome
+nvm
+openjpeg
+postman-bin
+woeusb-git

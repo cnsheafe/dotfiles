@@ -1,0 +1,15 @@
+com.github.z.Cumulonimbus
+com.slack.Slack
+com.spotify.Client
+org.freedesktop.Platform
+org.freedesktop.Platform.Compat.i386
+org.freedesktop.Platform.GL.default
+org.freedesktop.Platform.GL.nvidia-440-44
+org.freedesktop.Platform.GL.nvidia-440-64
+org.freedesktop.Platform.GL32.default
+org.freedesktop.Platform.GL32.nvidia-440-64
+org.freedesktop.Platform.ffmpeg
+org.freedesktop.Platform.openh264
+org.gnome.Platform
+org.gnome.Platform
+org.gtk.Gtk3theme.Arc
