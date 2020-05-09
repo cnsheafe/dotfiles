@@ -1,0 +1,13 @@
+# Show desktop entries
+show=drun
+# Search matches string contained within desktop entry name
+matching=contains
+location=top
+yoffset=350
+width=750
+height=300
+insensitive=true
+allow_images=true
+key_forward=NULL
+key_expand=Tab
+

@@ -75,3 +75,8 @@ colors:
   #
   indexed_colors: []
 
+window:
+  padding:
+    x: 10
+    y: 10
+

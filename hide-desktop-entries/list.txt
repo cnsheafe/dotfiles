@@ -1,0 +1,13 @@
+Alacritty.desktop
+blueman-manager.desktop
+chromium.desktop
+code-oss.desktop
+code-oss-url-handler.desktop
+firefox.desktop
+gparted.desktop
+pasystray.desktop
+pavucontrol.desktop
+thunar.desktop
+vim.desktop
+virtualbox.desktop
+vlc.desktop
