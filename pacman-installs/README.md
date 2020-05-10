@@ -11,3 +11,4 @@
 `flatpak list --columns=application`
 
 Note: Some flatpak packages are dependencies of other packages and as such may be unnecessary to install.
+
