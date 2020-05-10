@@ -1,6 +1,7 @@
-dropbox
-google-chrome
 nvm
-openjpeg
-postman-bin
-woeusb-git
+otf-symbola
+ttf-amiri
+ttf-symbola
+ttf-symbola-infinality
+wofi-hg
+xbindkeys
