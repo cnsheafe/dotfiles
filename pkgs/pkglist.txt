@@ -35,6 +35,8 @@ gdb
 gdm
 git
 gnome-control-center
+go
+go-tools
 gparted
 gpodder
 gptfdisk
@@ -52,9 +54,10 @@ man-db
 man-pages
 meson
 moreutils
+neovim
 netctl
 networkmanager
-noto-fonts-emoji
+noto-fonts
 ntp
 numactl
 openssh
@@ -75,6 +78,7 @@ pulseaudio-jack
 python
 python-breathe
 python-pip
+python-pynvim
 qt5-doc
 refind
 reflector
