@@ -16,8 +16,10 @@ blueman
 bluez
 bluez-utils
 breeze-gtk
+brightnessctl
 chromium
 clang
+cmake
 code
 connman
 cups
@@ -70,6 +72,7 @@ parted
 patch
 pavucontrol
 pkgconf
+playerctl
 powerline-fonts
 ppp
 pulseaudio-alsa
