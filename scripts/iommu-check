@@ -1,0 +1,13 @@
+#!/bin/bash
+# Prints mapping of PCI devices to IOMMU groups.
+# If nothing is printed, either IOMMU is not setup or hardware does not support IOMMU.
+# Be sure that kernel param for iommu is set - either intel_iommu=on or amd_iommu=on.
+
+
+shopt -s nullglob
+for g in /sys/kernel/iommu_groups/*; do
+    echo "IOMMU Group ${g##*/}:"
+    for d in $g/devices/*; do
+        echo -e "\t$(lspci -nns ${d##*/})"
+    done;
+done;
