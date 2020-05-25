@@ -1,3 +1,4 @@
+gtk4
 nvm
 otf-symbola
 ttf-amiri

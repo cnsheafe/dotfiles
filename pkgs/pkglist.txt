@@ -39,6 +39,7 @@ git
 gnome-control-center
 go
 go-tools
+gobject-introspection
 gparted
 gpodder
 gptfdisk
@@ -56,6 +57,7 @@ man-db
 man-pages
 meson
 moreutils
+mpd
 neovim
 netctl
 networkmanager
@@ -65,6 +67,7 @@ numactl
 openssh
 openvpn
 otf-fira-code
+otf-font-awesome
 p7zip
 pacman-contrib
 papirus-icon-theme
@@ -92,12 +95,15 @@ sudo
 sway
 texinfo
 thunar
+torbrowser-launcher
 unzip
 vagrant
 vim
 virtualbox
 virtualbox-guest-utils
 vlc
+vulkan-headers
+waybar
 weston
 wl-clipboard
 wlroots
