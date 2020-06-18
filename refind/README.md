@@ -4,8 +4,8 @@ Replace `XXX` with the device id of the drive. `%v` can only be used if we edit 
 
 
 ```
-"Boot using default options"  "root=/dev/XXX rw add_efi_memmap initrd=/intel-ucode.img initrd=/initramfs-%v.img apparmor=1 security=apparmor" 
-"Boot to terminal"	      "root=/dev/XXX rw add_efi_memmap initrd=/intel-ucode.img initrd=/initramfs-%v.img systemd.unit=multi-user.target"
+"Boot using default options"  "root=/dev/XXX rw add_efi_memmap initrd=\intel-ucode.img initrd=\initramfs-%v.img apparmor=1 security=apparmor" 
+"Boot to terminal"	      "root=/dev/XXX rw add_efi_memmap initrd=\intel-ucode.img initrd=\initramfs-%v.img systemd.unit=multi-user.target"
 "Boot to single-user mode"    "archisobasedir=arch archisolabel=ARCH_202001 single"
 "Boot to rescue target"       "ro root=/dev/XXX systemd.unit=rescue.target"
 ```
