@@ -25,9 +25,12 @@ if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
 	    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
 
-editor=/usr/bin/vim
+alias ls='ls --color -h --group-directories-first'
+editor=/usr/bin/nvim
+alias vim=nvim
 export EDITOR=$editor
 export VISUAL=$editor
+export XDG_DATA_HOME=~/.local/share
 source /usr/share/nvm/init-nvm.sh
 
 export PATH=$PATH:~/.local/bin
