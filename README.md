@@ -28,3 +28,9 @@ cp -r .tmux.conf ~/.tmux.conf
 cp -r .zprofile ~/.zprofile
 cp -r .zshrc ~/.zshrc
 ```
+
+Configure git to support branch stacking
+
+```bash
+git config --global --add --bool rebase.updateRefs true
+```
