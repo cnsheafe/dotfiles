@@ -1,14 +1,30 @@
-# My Personal Dotfiles
+# Dotfiles
 
-A set of config files primarily used for an Arch Linux setup. Also includes scripts for easier migration to a new system using the ["bottom-top" approach](https://wiki.archlinux.org/index.php/Migrate_installation_to_new_hardware#Bottom_to_top).
+Install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-## Nomenclature
-
-Files and folders starting with "dot" should be replaced with "." when adding to a system.
-
-### Example for adding files
+Then install all packages using `brew`.
 
 ```bash
-cp -r dotconfig ~/.config
+# install the "formula" packages first
+brew install nvim nvm tmux python pipx docker docker-compose gh fzf jq lazygit libpq pnpm ripgrep raine/workmux/wormux tree-sitter rust
+# install casks
+brew install --cask claude@latest codex cloudflare-warp doll firefox font-fira-code font-fira-code-nerd-font google-chrome obsidian rectangle slack zoom
 ```
 
+Alacritty will/is deprecated on homebrew. Install from cargo.
+
+```bash
+cargo install alacritty
+```
+
+Copy config files as needed.
+
+```bash
+cd dotfiles
+cp -r .claude ~/.claude
+cp -r .codex ~/.codex
+cp -r .config ~/.config
+cp -r .tmux.conf ~/.tmux.conf
+cp -r .zprofile ~/.zprofile
+cp -r .zshrc ~/.zshrc
+```
