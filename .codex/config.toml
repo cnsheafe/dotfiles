@@ -1,0 +1,17 @@
+# approvals_reviewer = "auto_review"
+sandbox_mode = "danger-full-access"
+approval_policy = "never"
+
+[features]
+hooks = true
+memories = true
+goals = true
+js_repl = false
+
+[mcp_servers.context7]
+url = "https://mcp.context7.com/mcp"
+
+# Install Chrome Playwright extension first: https://chromewebstore.google.com/detail/playwright-extension/mmlmfjhmonkocbjadbfplnigmagldckm
+[mcp_servers.playwright]
+command = "npx"
+args = ["@playwright/mcp@latest", "--extension"]
