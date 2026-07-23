@@ -1,0 +1,6 @@
+return {
+    {
+        "lervag/wiki.vim",
+        -- tag = "v0.10", -- uncomment to pin to a specific release
+    },
+}

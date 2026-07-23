@@ -1,0 +1,19 @@
+base_branch: origin/main
+agent: codex
+merge_strategy: rebase
+worktree_naming: basename
+files:
+  copy:
+    - .env
+panes:
+  # Pane 1: open editor(optionally also install the dependencies of the repo)
+  - command: nvim
+    focus: true
+  # Pane 2: Open agent in split window(horizontal is actually vertical)
+  - command: <agent>
+    split: horizontal
+nerdfont: true
+sidebar:
+  position: top
+  height: 3
+  layout: compact
