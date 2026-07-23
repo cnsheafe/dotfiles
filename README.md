@@ -34,3 +34,9 @@ Configure git to support branch stacking
 ```bash
 git config --global --add --bool rebase.updateRefs true
 ```
+
+disable macos key repeat
+
+```bash
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+```
