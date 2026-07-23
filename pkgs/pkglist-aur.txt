@@ -1,9 +1,0 @@
-gtk4
-nvm
-otf-symbola
-ttf-amiri
-ttf-symbola
-ttf-symbola-infinality
-vim-plug
-wofi-hg
-xbindkeys
