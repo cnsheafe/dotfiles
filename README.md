@@ -13,7 +13,7 @@ brew install nvim nvm tmux python pipx docker docker-compose gh fzf jq lazygit l
 install casks
 
 ```bash
-brew install --cask claude@latest codex cloudflare-warp doll firefox font-fira-code font-fira-code-nerd-font google-chrome obsidian rectangle slack zoom
+brew install --cask claude@latest codex cloudflare-warp docker-desktop doll firefox font-fira-code font-fira-code-nerd-font google-chrome obsidian rectangle slack zoom
 ```
 
 Build Alacritty from source - homebrew has deprecated install due to [signing/notary](https://github.com/alacritty/alacritty/issues/8749) issues.
