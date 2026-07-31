@@ -6,3 +6,4 @@ vim.opt.textwidth = 100
 vim.opt.wrap = true
 vim.opt.number = true
 vim.opt.relativenumber = false
+vim.opt.exrc = true
